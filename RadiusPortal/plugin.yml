@@ -1,0 +1,8 @@
+name: RadiusPortal
+version: 1.0
+main: me.ranol.rportal.RadiusPortal
+author: Ranol_
+commands: 
+  radiusportal:
+    aliases: [radp, radportal]
+    description: "RadiusPortal Main Command"

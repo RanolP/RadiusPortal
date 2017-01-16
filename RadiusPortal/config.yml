@@ -1,0 +1,5 @@
+distance:
+  reset: 2
+effect:
+  sendMessage: true
+add-with-save: true
