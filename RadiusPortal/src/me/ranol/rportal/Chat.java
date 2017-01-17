@@ -10,6 +10,7 @@ public class Chat {
 			String commandLabel, int viewSize) {
 		if ((currentPage - 1) * viewSize + 1 > messages.size() || currentPage < 0) {
 			target.sendMessage("§c목록을 찾을 수 없습니다.");
+			return;
 		}
 		int max = messages.size() % viewSize == 0 ? messages.size() / viewSize : messages.size() / viewSize + 1;
 		target.sendMessage("§6" + messages.size() + "개를 찾았습니다. §e" + currentPage + "§b/§a" + messages.size() / max);
